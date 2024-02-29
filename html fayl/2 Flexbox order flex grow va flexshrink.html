@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Document</title>
+        <link rel="stylesheet" href="/css/2 Flexbox order, flex-grow va flexshrink.css">
+    </head>
+    <body>  
+        <div class="flex-container">
+            <div class="flex-item order-10">Flex item 1 (order: 10)</div>
+            <div class="flex-item order-1">flex item 2 (order:1)</div>
+            <div class="flex-item order-minus-5">flex item 3 (order:-5)</div>
+            <div class="flex-item">Flex item 4 (order: 0 default)</div>
+        </div>
+        <hr>
+        <div class="flex-container__1">
+            <div class="flex-item__1">Flex item 1 </div>
+            <div class="flex-item__1">flex item 2 </div>
+            <div class="flex-item__1 flex-grow-1">flex item 3 </div>
+        </div>
+        <hr>
+        <div class="flex-container__2">
+            <div class="flex-item__2 flex-shrink-0">Flex item 1 </div>
+            <div class="flex-item__2">flex item 2 </div>
+            <div class="flex-item__2 flex-shrink-2">flex item 3 </div>
+            <div class="flex-item__2">flex item 4 </div>
+            <div class="flex-item__2">flex item 5 </div>
+            <div class="flex-item__2">flex item 6 </div>
+            <div class="flex-item__2">flex item 7 </div>
+        </div>
+    </body>
+</html>

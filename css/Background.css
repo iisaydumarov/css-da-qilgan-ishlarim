@@ -1,0 +1,8 @@
+.box {
+    height: 1900px;
+    background-image: url("/images/fon.png");
+    color: white;
+    background-repeat: no-repeat ;
+    background-position: 300px 150px;
+    border: 5px solid red;
+}

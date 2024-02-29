@@ -1,0 +1,214 @@
+body {
+    width: 99.5%;
+    height: auto;
+}
+
+.boshqismirangi {
+    background-color: #e5e5e5;
+    width: 100.5%;
+    height: 1000px;
+    margin-top: -0.5%;
+    margin-left: -0.5%;
+}
+
+.ustidagirang {
+    width: 100%;
+    background-color: white;
+    height: 550px;
+}
+
+
+
+@keyframes box-mover {
+    0% {
+        width: 840px;
+        height: 530px;
+        margin-left: 80%;
+        margin-top: 110px;
+        border-radius: 20px;
+        z-index: 3;
+        position: absolute;
+        opacity: 0
+        
+        ;
+    }
+    100% {
+        width: 840px;
+        height: 530px;
+        margin-left: 378px;
+        margin-top: 110px;
+        border-radius: 20px;
+        z-index: 3;
+        position: absolute;
+        transition: all 3s ease 0s;
+        opacity: 1;
+    }
+}
+
+
+
+
+
+.ustidagirang img {
+    width: 840px;
+    height: 530px;
+    margin-left: 378px;
+    margin-top: 110px;
+    border-radius: 20px;
+    z-index: 3;
+    position: absolute;
+    transition: all 3s ease 0s;
+    opacity: 1;
+    animation-name: box-mover;
+    animation-duration: 3
+    s;
+    animation-fill-mode: both;
+}
+
+
+
+
+@keyframes box-mover2 {
+    0% {
+        width: 500px;
+        height: 320px;
+        background-color: #f67a37;
+        position: absolute;
+        z-index: 1;
+        margin-top: 408px;
+        border-radius: 20px;
+        opacity: 0;
+    }
+    100% {
+        width: 500px;
+        height: 320px;
+        background-color: #f67a37;
+        position: absolute;
+        z-index: 1;
+        margin-left: 300px;
+        margin-top: 408px;
+        border-radius: 20px;
+        transition: all 3s ease 0s;
+        opacity: 1;
+    }
+}
+
+
+
+
+
+
+.rasmniorqasidagiranf {
+    width: 500px;
+    height: 320px;
+    background-color: #f67a37;
+    position: absolute;
+    z-index: 1;
+    margin-left: 300px;
+    margin-top: 408px;
+    border-radius: 20px;
+    transition: all 3s ease 0s;
+    opacity: 1;
+    animation-name: box-mover2;
+    animation-duration: 2s;
+    animation-fill-mode: both;
+}
+
+
+
+
+@keyframes box-mover3 {
+    0% {
+        width: 500px;
+        height: 320px;
+        background-color: white;
+        border-radius: 20px;
+        z-index: 5;
+        position: absolute;
+        margin-left: 600px;
+        margin-top: 800px;
+        opacity: 0;
+    }
+    100% {
+        width: 500px;
+        height: 320px;
+        background-color: white;
+        border-radius: 20px;
+        z-index: 7;
+        position: absolute;
+        margin-left: 600px;
+        margin-top: 500px;
+        transition: all 3s ease 0s;
+        opacity: 1;
+    }
+}
+
+
+
+
+
+.qutiichidatext {
+    width: 500px;
+    height: 320px;
+    background-color: white;
+    border-radius: 20px;
+    z-index: 7;
+    position: absolute;
+    margin-left: 600px;
+    margin-top: 500px;
+    transition: all 3s ease 0s;
+    opacity: 1;
+    animation-name: box-mover3;
+    animation-duration: 2s;
+    animation-fill-mode: both;
+}
+
+
+
+
+
+
+
+
+@supports (animation-timeline: works) {
+
+    .shablon {
+        animation: 1s linear forwards flip-card;
+        width: 200px;
+        height: 200px;
+        margin-top: 900px;
+        margin-left: 0px;
+        transition: all 3s ease 0s;
+        background-color: black;
+        opacity: 0;
+        z-index: 7;
+    }
+
+    @scroll-timeline flip-timeline {
+        time-range: 1s;
+    }
+
+    @keyframes flip-card {
+        0% {
+            width: 200px;
+            height: 200px;
+            margin-top: 900px;
+            margin-left: 0px;
+            transition: all 3s ease 0s;
+            background-color: black;
+            opacity: 0;
+            z-index: 7;
+        }
+
+        100% {
+            width: 200px;
+            height: 200px;
+            margin-top: 500px;
+            margin-left: 1000px;
+            transition: all 3s ease 0s;
+            background-color: blue;
+            opacity: 1;
+            z-index: 10;
+        }
+    }
+}

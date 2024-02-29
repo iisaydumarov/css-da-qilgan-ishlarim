@@ -1,0 +1,63 @@
+.box {
+    height: 600px;
+    width: 1000px;
+    border: 1px solid red;
+    font-size: 20px;
+    border-radius: 0.5em; /* 0.5 *20px =10px */
+    padding: 5em; /* 5 *20px = 100px */
+
+}
+
+.parent-box {
+    font-size: 30px;
+}
+
+.box1 {
+    height: 600px;
+    width: 1000px;
+    border: 1px solid red;
+    border-radius: 0.5em; /*0.5 * 30px = 15px */
+    padding: 5em; /* 5 *30px = 150px */
+}
+
+.box2 {
+    height: 600px;
+    width: 1000px;
+    border: 1px solid red;
+    border-radius: 0.5em; /*0.5 * ?==??*/
+    padding: 5em; /* 5 * ? = ??*/
+}
+
+.parent-box3 {
+    font-size: 30px;
+}
+
+.child-box {
+    font-size: 2em;
+} 
+.box3 {
+    height: 600px;
+    width: 1000px;
+    border: 1px solid red;
+    border-radius: 0.5em; /*0.5 * 60px = 30px */
+    padding: 5em; /* 5 * 60px = 300px */
+}
+
+.container {
+    font-size: 20px;
+    padding: 0.5em;
+    border: 1px solid red;
+}
+
+.container h2 {
+    font-size: 1.5em;
+    margin-bottom: 0.2em;
+}
+
+.container h6 {
+    font-size: 0.9em;
+    margin-top: 0.2;
+}
+.container p {
+    font-size: 0.8em;
+}

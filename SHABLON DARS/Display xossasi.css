@@ -1,0 +1,27 @@
+.headin-1 {
+    background-color: red;
+}
+
+.link {
+    background-color: yellow;
+}
+
+.to-block {
+    background-color: red;
+    display: block;
+}
+
+.to-inline {
+    background-color: blue;
+    display: inline;
+}
+
+.to-inline-block {
+    background-color: red;
+    display: inline-block;
+    height: 300px;
+}
+
+.to-none {
+    display: none;
+}

@@ -1,0 +1,8 @@
+.box {
+    height: 600px;
+    width: 1000px;
+    border: 1px solid red;
+    font-size: 1rem; /* 1 * 16px =16px */
+    border-radius: 0.5rem;/*0.5 * 16px = 8px */
+    padding: 5rem; /* 5 * 16px = 80px*/
+}

@@ -1,0 +1,83 @@
+.box1 {
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    transition: width 2s;
+}
+
+.box1:hover {
+    width: 400px;
+}
+
+.box2 {
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    transition: width 2s, background-color 4s;
+}
+
+.box2:hover {
+    width: 400px;
+    background-color: green;
+}
+
+.box3 {
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    transition: all 2s;
+}
+
+.box3:hover {
+    width: 400px;
+    background-color: green;
+}
+
+.box0 {
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    transition: width 2s;
+    margin-bottom: 20px;
+}
+
+.box0:hover {
+    width: 400px;
+}
+
+.ease{
+    transition-timing-function: ease;
+}
+
+.linear {
+    transition-timing-function: easw;
+}
+
+.ease-in {
+    transition-timing-function: easw;
+}
+
+.ease-out {
+    transition-timing-function: easw;
+}
+
+.ease-in-out {
+    transition-timing-function: easw;
+}
+
+.cubic-bezier {
+    transition-timing-function: cubic-bezier(0.25, 0.1, 0.19, 1.46);
+}
+
+.box9 {
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    transition: width 2s;
+    transition-delay: 2s;
+}
+
+.box9:hover {
+    width: 400px;
+}
+

@@ -1,0 +1,40 @@
+body {
+    font-family: sans-serif;
+}
+
+.flex-container {
+    display: flex;
+    height: 200px;
+    padding: 10px;
+    background-color: #025955;
+    border-radius: 10px;
+    align-content: stretch;
+}
+
+.flex-item {
+    padding: 60px 15px;
+    background-color: #fde8cd;
+    font-weight: bolder;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+
+.flex2-container {
+    display: flex;
+    height: 700px;
+    padding: 20px;
+    background-color: #025955;
+    border-radius: 10px;
+    flex-wrap: wrap;
+    align-content: stretch
+    ;
+}
+
+.flex2-item {
+    padding: 60px 15px;
+    background-color: #fde8cd;
+    font-weight: bolder;
+    margin: 10px;
+    border-radius: 10px;
+}

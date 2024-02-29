@@ -1,0 +1,40 @@
+.gallery {
+  gap: 5px;
+}
+
+@media screen and (max-width: 768px) {
+  .section.image {
+    position: relative;
+    min-height: fit-content;
+  }
+
+  .section.image .image-background {
+    position: relative;
+    top: 0 !important;
+    height: auto;
+  }
+
+  .section.image .text {
+    position: absolute;
+    margin-right: auto;
+    margin-left: auto;
+    right: 0;
+    left: 0;
+    height: 100%;
+  }
+
+  ._8-column h3,
+  ._8-column h1 {
+    color: #000;
+  }
+}
+
+.feature-1 {
+	padding: 25px
+}
+
+@media screen and (max-width: 576px) {
+  h3 {
+    font-size: 1rem !important;
+  }
+}

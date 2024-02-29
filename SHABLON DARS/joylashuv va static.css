@@ -1,0 +1,43 @@
+.box {
+    background-color: red;
+    height: 200px;
+    margin-top: 10px;
+    bottom: 50px;
+    position: relative;
+}
+
+.link {
+    background-color: yellow;
+    color: red;
+}
+
+.relitiv-box {
+    position: relative;
+    top: 20px;
+    left: 60px;
+    background-color: blue;
+    height: 100px;
+}
+
+.relitiv-box2 {
+    background-color: red;
+    height: 50px;
+}
+
+body {
+    height: 1000px;
+}
+
+.fixed-box {
+    position: fixed;
+    top: 0px;
+    right: 0;
+    background-color: aqua;
+    height: 100px;
+    width: 100%;
+}
+
+.box {
+    background-color: brown;
+    height: 200px;
+}

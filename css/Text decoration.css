@@ -1,0 +1,28 @@
+.heading-1{
+    text-decoration: underline;
+}
+
+.heading-2{
+    text-decoration: line-through;
+}
+
+.link{
+    text-decoration: none;
+}
+
+.heading-3:hover{
+    background-color: blue;
+    color: wheat;
+}
+
+.heading-3:active{
+    background-color: red;
+}
+
+.heading-4, .heading-5{
+    background-color: red;
+    color: white;
+}
+.heading-5{
+    border: 5px solid blue;
+}

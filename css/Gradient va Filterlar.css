@@ -1,0 +1,39 @@
+.gradient-box {
+    width: 300px;
+    height: 400px;
+    background-image: linear-gradient(to right ,red, blue);
+}
+
+.gradient-box2 {
+    width: 500px;
+    height: 600px;
+    background-image: radial-gradient(circle,yellow, red, blue);
+}
+
+.gradient-box3 {
+    filter: blur(2px);
+}
+
+.gradient-box4 {
+    filter: brightness(0.3);
+}
+
+.gradient-box5 {
+    filter: contrast(0.5);
+}
+
+.gradient-box6 {
+    filter: grayscale(0.7);
+}
+
+.gradient-box7 {
+    filter: hue-rotate(180deg);
+}
+
+.gradient-box8 {
+    filter: invert(100%);
+}
+
+.gradient-box9 {
+    filter: opacity(50%);
+}

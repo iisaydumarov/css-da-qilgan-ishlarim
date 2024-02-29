@@ -1,0 +1,19 @@
+/*Universal selector*/
+* {
+    color: rgb(42, 225, 14);
+}
+
+/*Proprti selector*/
+[disabled]{
+    color: red;
+}
+
+/*Class selector*/
+.course-title{
+    color: black;
+}
+
+/*ID selector*/
+#course-name{
+    color: purple;
+}
